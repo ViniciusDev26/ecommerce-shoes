@@ -1,0 +1,28 @@
+{
+    "_id": "59933d17-d9d2-4e16-be9a-b5f1fc4a89f0",
+    "colName": "products",
+    "created": "2023-07-10T01:59:27.294Z",
+    "sortNum": 10000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "015fd684-ebd7-42f3-9929-a74212f3c1ce",
+            "colId": "59933d17-d9d2-4e16-be9a-b5f1fc4a89f0",
+            "containerId": "",
+            "name": "create",
+            "url": "localhost:3000/products",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-07-10T01:59:33.505Z",
+            "modified": "2023-07-10T02:58:01.878Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Sapato da barbie\",\n  \"price\": 200.00,\n  \"description\": \"Salto bonito, que minha namorada não quer ter, pois ela não me manda o link do salto\",\n  \"availableColoresIds\": [\"any\"],\n  \"availableSizesIds\": [\"any\"]\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
